@@ -1,0 +1,5 @@
+fun main() {
+    println("My name is Pratik")
+    println("I am learning Kotlin")
+    println("Welcome to GitHub")
+} 
