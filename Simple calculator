@@ -1,0 +1,18 @@
+fun main() {
+    print("Enter first number: ")
+    val a = readLine()!!.toDouble()
+
+    print("Enter second number: ")
+    val b = readLine()!!.toDouble()
+
+    print("Enter operator (+, -, *, /): ")
+    val operator = readLine()!!
+
+    when (operator) {
+        "+" -> println("Result = ${a + b}")
+        "-" -> println("Result = ${a - b}")
+        "*" -> println("Result = ${a * b}")
+        "/" -> println("Result = ${a / b}")
+        else -> println("Invalid operator")
+    }
+}
