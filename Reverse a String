@@ -1,0 +1,9 @@
+
+fun main() {
+    print("Enter a string: ")
+    val text = readLine()!!
+
+    val reversed = text.reversed()
+
+    println("Reversed String = $reversed")
+}
