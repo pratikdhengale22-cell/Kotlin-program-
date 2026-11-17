@@ -1,0 +1,14 @@
+
+fun main() {
+    val numbers = arrayOf(12, 45, 78, 23, 90)
+
+    var largest = numbers[0]
+
+    for (number in numbers) {
+        if (number > largest) {
+            largest = number
+        }
+    }
+
+    println("Largest number = $largest")
+}
