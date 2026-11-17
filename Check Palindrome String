@@ -1,0 +1,11 @@
+
+fun main() {
+    print("Enter a word: ")
+    val word = readLine()!!
+
+    if (word.equals(word.reversed(), ignoreCase = true)) {
+        println("$word is a Palindrome")
+    } else {
+        println("$word is not a Palindrome")
+    }
+}
