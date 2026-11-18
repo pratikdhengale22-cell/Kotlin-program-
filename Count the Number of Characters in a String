@@ -1,0 +1,9 @@
+
+fun main() {
+    print("Enter a string: ")
+    val text = readLine()!!
+
+    val count = text.length
+
+    println("Total characters = $count")
+}
