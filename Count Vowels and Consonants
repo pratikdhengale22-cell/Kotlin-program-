@@ -1,0 +1,19 @@
+
+fun main() {
+    print("Enter a string: ")
+    val text = readLine()!!.lowercase()
+
+    var vowels = 0
+    var consonants = 0
+
+    for (ch in text) {
+        if (ch in "aeiou") {
+            vowels++
+        } else if (ch in 'a'..'z') {
+            consonants++
+        }
+    }
+
+    println("Vowels = $vowels")
+    println("Consonants = $consonants")
+}
