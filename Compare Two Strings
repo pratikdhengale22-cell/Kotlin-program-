@@ -1,0 +1,14 @@
+
+fun main() {
+    print("Enter first string: ")
+    val str1 = readLine()!!
+
+    print("Enter second string: ")
+    val str2 = readLine()!!
+
+    if (str1 == str2) {
+        println("Both strings are equal")
+    } else {
+        println("Strings are not equal")
+    }
+}
