@@ -1,0 +1,19 @@
+
+fun main() {
+    print("Enter a number: ")
+    val number = readLine()!!.toInt()
+
+    var sum = 0
+
+    for (i in 1 until number) {
+        if (number % i == 0) {
+            sum += i
+        }
+    }
+
+    if (number > 1 && sum == number) {
+        println("$number is a Perfect Number")
+    } else {
+        println("$number is not a Perfect Number")
+    }
+}
