@@ -1,0 +1,20 @@
+
+fun main() {
+    print("Enter a number: ")
+    val number = readLine()!!.toInt()
+
+    var temp = number
+    var reverse = 0
+
+    while (temp > 0) {
+        val digit = temp % 10
+        reverse = reverse * 10 + digit
+        temp /= 10
+    }
+
+    if (number >= 0 && number == reverse) {
+        println("$number is a Palindrome Number")
+    } else {
+        println("$number is not a Palindrome Number")
+    }
+}
