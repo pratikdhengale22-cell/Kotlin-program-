@@ -1,0 +1,20 @@
+
+fun main() {
+    print("Enter first number: ")
+    var a = readLine()!!.toInt()
+
+    print("Enter second number: ")
+    var b = readLine()!!.toInt()
+
+    println("Before swapping:")
+    println("A = $a")
+    println("B = $b")
+
+    val temp = a
+    a = b
+    b = temp
+
+    println("After swapping:")
+    println("A = $a")
+    println("B = $b")
+}
